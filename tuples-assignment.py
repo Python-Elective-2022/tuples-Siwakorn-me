@@ -22,4 +22,6 @@ def skip_tuples(a):
     return newTuple
 
 
-print(skip_tuples(tuple))
+
+if __name__=="__main__":
+    print(skip_tuples(tuple))
