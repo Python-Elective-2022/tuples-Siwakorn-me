@@ -18,10 +18,9 @@ def skip_tuples(a):
     for num in range(len(a)):
         print(num)
         if num % 2 == 0:
-            newTuple = newTuple + (a[num],)
+            newTuple += (a[num],)
     return newTuple
 
 
-
-if __name__=="__main__":
+if __name__ == "__main__":
     print(skip_tuples(tuple))
